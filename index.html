@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuzzy Logic Quiz Bot | Master Your Assignments</title>
+    <meta name="description" content="Interactive quiz bot for Fuzzy Sets, Logic and Systems - Practice all 11 assignments with instant feedback and explanations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- App Container -->
+    <div id="app">
+
+        <!-- Landing Screen -->
+        <div id="landing-screen" class="screen active">
+            <div class="landing-content">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="40" cy="40" r="36" stroke="url(#grad1)" stroke-width="3" stroke-dasharray="6 4"/>
+                            <path d="M20 50 Q30 20 40 35 Q50 50 60 25" stroke="url(#grad2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <circle cx="30" cy="38" r="4" fill="#818cf8" opacity="0.8"/>
+                            <circle cx="50" cy="32" r="4" fill="#a78bfa" opacity="0.8"/>
+                            <circle cx="40" cy="35" r="3" fill="#c084fc" opacity="0.9"/>
+                            <defs>
+                                <linearGradient id="grad1" x1="0" y1="0" x2="80" y2="80">
+                                    <stop offset="0%" stop-color="#818cf8"/>
+                                    <stop offset="100%" stop-color="#c084fc"/>
+                                </linearGradient>
+                                <linearGradient id="grad2" x1="20" y1="20" x2="60" y2="50">
+                                    <stop offset="0%" stop-color="#6366f1"/>
+                                    <stop offset="50%" stop-color="#8b5cf6"/>
+                                    <stop offset="100%" stop-color="#a855f7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h1 class="app-title">Fuzzy Logic<br><span class="title-accent">Quiz Bot</span></h1>
+                    <p class="app-subtitle">Master all 11 assignments with instant feedback & detailed explanations</p>
+                </div>
+
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-number">11</span>
+                        <span class="stat-label">Assignments</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">110</span>
+                        <span class="stat-label">Questions</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Practice</span>
+                    </div>
+                </div>
+
+                <div class="mode-selection">
+                    <h2 class="section-title">Choose Your Mode</h2>
+                    
+                    <div class="mode-cards">
+                        <button class="mode-card" id="mode-all" onclick="startQuiz('all')">
+                            <div class="mode-icon">🎯</div>
+                            <h3>All Assignments</h3>
+                            <p>110 questions from all 11 assignments shuffled randomly</p>
+                            <span class="mode-badge">Full Practice</span>
+                        </button>
+                        
+                        <button class="mode-card" id="mode-select" onclick="showAssignmentPicker()">
+                            <div class="mode-icon">📋</div>
+                            <h3>Select Assignment</h3>
+                            <p>Pick a specific assignment to practice (10 questions each)</p>
+                            <span class="mode-badge">Focused</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Assignment Picker (hidden by default) -->
+                <div id="assignment-picker" class="assignment-picker hidden">
+                    <h2 class="section-title">Pick an Assignment</h2>
+                    <div class="assignment-grid" id="assignment-grid">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-container">
+                <!-- Top Bar -->
+                <div class="quiz-topbar">
+                    <button class="back-btn" onclick="goHome()" id="back-home-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                        Home
+                    </button>
+                    <div class="quiz-info">
+                        <span id="quiz-mode-label" class="quiz-mode-label">All Assignments</span>
+                    </div>
+                    <div class="score-display">
+                        <span class="score-correct" id="score-correct">0</span>
+                        <span class="score-sep">/</span>
+                        <span class="score-total" id="score-answered">0</span>
+                    </div>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <span class="progress-text" id="progress-text">1 / 10</span>
+                </div>
+
+                <!-- Question Card -->
+                <div class="question-card" id="question-card">
+                    <div class="question-meta">
+                        <span class="q-assignment-badge" id="q-assignment-badge">Assignment 1</span>
+                        <span class="q-number" id="q-number">Q1</span>
+                    </div>
+                    <h2 class="question-text" id="question-text">Loading question...</h2>
+                    
+                    <div class="options-container" id="options-container">
+                        <!-- Generated by JS -->
+                    </div>
+                </div>
+
+                <!-- Explanation Card (hidden until answered) -->
+                <div class="explanation-card hidden" id="explanation-card">
+                    <div class="explanation-header" id="explanation-header">
+                        <span class="explanation-icon" id="explanation-icon">✅</span>
+                        <span class="explanation-title" id="explanation-title">Correct!</span>
+                    </div>
+                    <div class="explanation-body" id="explanation-body">
+                        <p id="explanation-text"></p>
+                    </div>
+                    <button class="next-btn" id="next-btn" onclick="nextQuestion()">
+                        Next Question
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="results-container">
+                <div class="results-header">
+                    <div class="results-emoji" id="results-emoji">🎉</div>
+                    <h1 class="results-title" id="results-title">Quiz Complete!</h1>
+                    <p class="results-subtitle" id="results-subtitle">Here's how you did</p>
+                </div>
+
+                <div class="results-score-card">
+                    <div class="score-circle" id="score-circle">
+                        <svg viewBox="0 0 120 120">
+                            <circle cx="60" cy="60" r="54" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="8"/>
+                            <circle cx="60" cy="60" r="54" fill="none" stroke="url(#scoreGrad)" stroke-width="8" 
+                                    stroke-linecap="round" stroke-dasharray="339.29" stroke-dashoffset="339.29"
+                                    id="score-ring" transform="rotate(-90 60 60)"/>
+                            <defs>
+                                <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#6366f1"/>
+                                    <stop offset="100%" stop-color="#a855f7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="score-center">
+                            <span class="score-percent" id="score-percent">0%</span>
+                        </div>
+                    </div>
+                    <div class="score-details">
+                        <div class="score-detail-item">
+                            <span class="detail-label">Correct</span>
+                            <span class="detail-value correct" id="final-correct">0</span>
+                        </div>
+                        <div class="score-detail-item">
+                            <span class="detail-label">Wrong</span>
+                            <span class="detail-value wrong" id="final-wrong">0</span>
+                        </div>
+                        <div class="score-detail-item">
+                            <span class="detail-label">Total</span>
+                            <span class="detail-value" id="final-total">0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn-primary" onclick="retryQuiz()" id="retry-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <path d="M1 4v6h6M23 20v-6h-6"/>
+                            <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"/>
+                        </svg>
+                        Retry Same Quiz
+                    </button>
+                    <button class="btn-secondary" onclick="goHome()" id="home-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                        Back to Home
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
