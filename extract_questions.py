@@ -226,7 +226,7 @@ def fix_truncations(data):
 def main():
     all_questions = []
     
-    for i in range(1, 12):
+    for i in range(1, 13):
         pdf_path = f"pdfs/assignment_{i}.pdf"
         if not os.path.exists(pdf_path):
             print(f"WARNING: {pdf_path} not found!")
@@ -260,7 +260,7 @@ def main():
     
     # Save JS
     with open("questions.js", "w", encoding="utf-8") as f:
-        f.write("// Auto-generated from PDF extraction - Fuzzy Logic Assignments 1-11\n")
+        f.write("// Auto-generated from PDF extraction - Fuzzy Logic Assignments 1-12\n")
         f.write("const QUESTIONS_DATA = ")
         json.dump(all_questions, f, indent=2, ensure_ascii=False)
         f.write(";\n")

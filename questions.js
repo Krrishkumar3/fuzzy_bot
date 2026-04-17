@@ -1,4 +1,4 @@
-// Auto-generated from PDF extraction - Fuzzy Logic Assignments 1-11
+// Auto-generated from PDF extraction - Fuzzy Logic Assignments 1-12
 const QUESTIONS_DATA = [
   {
     "id": "a1_q1",
@@ -1711,5 +1711,165 @@ const QUESTIONS_DATA = [
       "a"
     ],
     "explanation": "The correct answer is (a)."
+  },
+  {
+    "id": "a12_q1",
+    "assignment": 12,
+    "question_number": 1,
+    "question": "A TSK fuzzy model with two rules is given as below. RULE 1: IF \"x is HIGH\" AND \"y is LOW\" THEN \"z = x + 2\". RULE 2: IF \"x is LOW\" AND \"y is HIGH\" THEN \"z = y + 1\". The input membership functions are: x(LOW) = triangle(x;[1,3,5]), x(HIGH) = triangle(x;[2,4,6]), y(LOW) = triangle(y;[0,2,4]), y(HIGH) = triangle(y;[6,8,10]). For crisp inputs x=1 and y=1, which of the following set of rules will be applicable?",
+    "options": {
+      "a": "Rule 2",
+      "b": "Rule 1",
+      "c": "Rule 1 and Rule 2",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "d"
+    ],
+    "explanation": "For x=1: x(LOW)=0, x(HIGH)=0. For y=1: y(LOW)=0.5, y(HIGH)=0. Since only y is LOW has non-zero membership, and no rule has only \"y is LOW\" as antecedent, no rule is applicable."
+  },
+  {
+    "id": "a12_q2",
+    "assignment": 12,
+    "question_number": 2,
+    "question": "For the TSK model defined in Q.1, which of the following set of rules will be applicable for crisp inputs x=2 and y=7?",
+    "options": {
+      "a": "Rule 2",
+      "b": "Rule 1",
+      "c": "Rule 1 and Rule 2",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "a"
+    ],
+    "explanation": "For x=2: x(LOW)=0.5, x(HIGH)=0. For y=7: y(LOW)=0, y(HIGH)=0.5. The applicable combination is IF \"x is LOW\" AND \"y is HIGH\" which matches Rule 2."
+  },
+  {
+    "id": "a12_q3",
+    "assignment": 12,
+    "question_number": 3,
+    "question": "For the applicable rules obtained using given crisp inputs in Q.1 (x=1, y=1), what will be the firing strength using max-min composition for the TSK model?",
+    "options": {
+      "a": "0.50",
+      "b": "0.20",
+      "c": "0.25",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "d"
+    ],
+    "explanation": "No rule is applicable for crisp inputs x=1 and y=1, so there is no firing strength."
+  },
+  {
+    "id": "a12_q4",
+    "assignment": 12,
+    "question_number": 4,
+    "question": "For the applicable rules obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the firing strength using max-min composition for the TSK model?",
+    "options": {
+      "a": "0.50",
+      "b": "0.20",
+      "c": "0.25",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "a"
+    ],
+    "explanation": "The applicable rule is RULE 2: IF \"x is LOW\" AND \"y is HIGH\" THEN \"z = y + 1\". w1 = x(LOW)|x=2 = 0.5, w2 = y(HIGH)|y=7 = 0.5. Firing strength = min(0.5, 0.5) = 0.50."
+  },
+  {
+    "id": "a12_q5",
+    "assignment": 12,
+    "question_number": 5,
+    "question": "For the applicable rule obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the firing strength using max-product composition for the TSK model?",
+    "options": {
+      "a": "0.50",
+      "b": "0.20",
+      "c": "0.25",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "c"
+    ],
+    "explanation": "The applicable rule is RULE 2. w1 = x(LOW)|x=2 = 0.5, w2 = y(HIGH)|y=7 = 0.5. Using max-product composition: w = w1 × w2 = 0.5 × 0.5 = 0.25."
+  },
+  {
+    "id": "a12_q6",
+    "assignment": 12,
+    "question_number": 6,
+    "question": "For the TSK model defined in Q.1, which of the following set of rules will be applicable for crisp inputs x=5 and y=3?",
+    "options": {
+      "a": "Rule 2",
+      "b": "Rule 1",
+      "c": "Rule 1 and Rule 2",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "b"
+    ],
+    "explanation": "For x=5: x(LOW)=0, x(HIGH)=0.5. For y=3: y(LOW)=0.5, y(HIGH)=0. The applicable combination is IF \"x is HIGH\" AND \"y is LOW\" which matches Rule 1."
+  },
+  {
+    "id": "a12_q7",
+    "assignment": 12,
+    "question_number": 7,
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the firing strength using max-min composition?",
+    "options": {
+      "a": "0.75",
+      "b": "0.00",
+      "c": "0.50",
+      "d": "0.25"
+    },
+    "correct_answers": [
+      "c"
+    ],
+    "explanation": "The applicable rule is RULE 1: IF \"x is HIGH\" AND \"y is LOW\" THEN \"z = x + 2\". Firing strength = min(0.5, 0.5) = 0.50."
+  },
+  {
+    "id": "a12_q8",
+    "assignment": 12,
+    "question_number": 8,
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the firing strength using max-product composition?",
+    "options": {
+      "a": "0.75",
+      "b": "0.00",
+      "c": "0.50",
+      "d": "0.25"
+    },
+    "correct_answers": [
+      "d"
+    ],
+    "explanation": "The applicable rule is RULE 1. Using max-product composition: w = 0.5 × 0.5 = 0.25."
+  },
+  {
+    "id": "a12_q9",
+    "assignment": 12,
+    "question_number": 9,
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the aggregated weighted output using max-min composition?",
+    "options": {
+      "a": "7",
+      "b": "3",
+      "c": "2",
+      "d": "4"
+    },
+    "correct_answers": [
+      "a"
+    ],
+    "explanation": "The aggregated weighted output z* = z = x + 2 = 5 + 2 = 7 (since only one rule is applicable, the output equals the rule consequent)."
+  },
+  {
+    "id": "a12_q10",
+    "assignment": 12,
+    "question_number": 10,
+    "question": "For the applicable rule obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the aggregated weighted output using max-min composition?",
+    "options": {
+      "a": "7",
+      "b": "3",
+      "c": "12",
+      "d": "8"
+    },
+    "correct_answers": [
+      "d"
+    ],
+    "explanation": "The aggregated weighted output z* = z = y + 1 = 7 + 1 = 8 (since only Rule 2 is applicable, the output equals the rule consequent)."
   }
 ];

@@ -30,7 +30,7 @@ function generateAssignmentButtons() {
     const grid = document.getElementById('assignment-grid');
     grid.innerHTML = '';
     
-    for (let i = 1; i <= 11; i++) {
+    for (let i = 1; i <= 12; i++) {
         const btn = document.createElement('button');
         btn.className = 'assignment-btn';
         btn.id = `assignment-btn-${i}`;
