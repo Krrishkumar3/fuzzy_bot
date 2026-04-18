@@ -14,7 +14,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;𝑎,𝑏,𝑐)=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 8−2 10−8 6 2 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;𝑎,𝑏,𝑐)=maxmin , ,0=maxmin , ,0=max{min[1.5,0.5],0}=max{0.5,0} 6−2 10−6 4 4 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;𝑎,𝑏,𝑐)=0.5"
+    "explanation": "𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;𝑎,𝑏,𝑐)= maxቄminቂ𝑥−𝑎 𝑏−𝑎,𝑐−𝑥 𝑐−𝑏ቃ,0ቅ 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;𝑎,𝑏,𝑐)= max൜min൤8−2 6−2,10−8 10−6൨,0ൠ= max൜min൤6 4,2 4൨,0ൠ= max{min[1.5,0.5],0}= max{0.5,0} 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;𝑎,𝑏,𝑐)= 0.5"
   },
   {
     "id": "a1_q2",
@@ -30,7 +30,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;𝑎,𝑏,𝑐)=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 6−2 10−6 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;𝑎,𝑏,𝑐)=maxmin , ,0=max{min[1,1],0}=max{1,0}=1.0 6−2 10−6"
+    "explanation": "𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;𝑎,𝑏,𝑐)= maxቄminቂ𝑥−𝑎 𝑏−𝑎,𝑐−𝑥 𝑐−𝑏ቃ,0ቅ 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;𝑎,𝑏,𝑐)= max൜min൤6−2 6−2,10−6 10−6൨,0ൠ= max{min[1,1],0}= max{1,0}= 1.0"
   },
   {
     "id": "a1_q3",
@@ -46,7 +46,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "For new parameters i.e., a=2, b=8, and c=10, the following are the membership values, 5−2 10−5 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥 =5;𝑎 =2,𝑏 =8,𝑐 =10)=maxmin , ,0=max{min[0.5,2.5],0} 8−2 10−8 =max{0.5,0}=0.5 9−2 10−9 7 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥 =9;𝑎 =2,𝑏 =8,𝑐 =10)=maxmin , ,0=maxmin ,0.5,0 8−2 10−8 6 =max{0.5,0}=0.5"
+    "explanation": "For new parameters i.e., a=2, b=8, and c=10, the following are the membership values, 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥= 5;𝑎= 2,𝑏= 8,𝑐= 10)= max൜min൤5−2 8−2,10−5 10−8൨,0ൠ= max{min[0.5,2.5],0} = max{0.5,0}= 0.5 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥= 9;𝑎= 2,𝑏= 8,𝑐= 10)= max൜min൤9−2 8−2,10−9 10−8൨,0ൠ= max൜min൤7 6,0.5൨,0ൠ = max{0.5,0}= 0.5"
   },
   {
     "id": "a1_q4",
@@ -62,7 +62,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "𝑥−𝑎 𝑑−𝑥 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑(𝑥;𝑎,𝑏,𝑐,𝑑)=maxmin ,1, ,0 𝑏−𝑎 𝑑−𝑐 7−1 9−7 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑(𝑥;𝑎,𝑏,𝑐,𝑑) =maxmin ,1, ,0=max{min[3,1,1],0}=max{1,0}=1.0 3−1 9−7"
+    "explanation": "𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑 (𝑥;𝑎,𝑏,𝑐,𝑑)= max൜min൤𝑥−𝑎 𝑏−𝑎,1,𝑑−𝑥 𝑑−𝑐൨,0ൠ 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑 (𝑥;𝑎,𝑏,𝑐,𝑑)= max൜min൤7−1 3−1,1,9−7 9−7൨,0ൠ= max{min[3,1,1],0}= max{1,0}= 1.0"
   },
   {
     "id": "a1_q5",
@@ -94,7 +94,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "𝑥−𝑎 𝑑−𝑥 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑(𝑥;𝑎,𝑏,𝑐,𝑑)=maxmin ,1, ,0 𝑏−𝑎 𝑑−𝑐 3−1 9−3 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑(𝑥 =3;𝑎 =1,𝑏 =5,𝑐 =7,𝑑 =9)=maxmin ,1, ,0=max{min[0.50,1,3.0],0}=0.5 5−1 9−7 8−1 9−8 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑(𝑥 =8;𝑎 =1,𝑏 =5,𝑐 =7,𝑑 =9)=maxmin ,1, ,0=max{min[1.75,1,0.5],0}=0.5 5−1 9−7"
+    "explanation": "𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑 (𝑥;𝑎,𝑏,𝑐,𝑑)= max൜min൤𝑥−𝑎 𝑏−𝑎,1,𝑑−𝑥 𝑑−𝑐൨,0ൠ 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑 (𝑥= 3;𝑎= 1,𝑏= 5,𝑐= 7,𝑑= 9)= max൜min൤3−1 5−1,1,9−3 9−7൨,0ൠ= max{min[0.50,1,3.0 ],0}= 0.5 𝑡𝑟𝑎𝑝𝑒𝑧𝑜𝑖𝑑 (𝑥= 8;𝑎= 1,𝑏= 5,𝑐= 7,𝑑= 9)= max൜min൤8−1 5−1,1,9−8 9−7൨,0ൠ= max{min[1.75,1,0.5 ],0}= 0.5"
   },
   {
     "id": "a1_q7",
@@ -102,9 +102,9 @@ const QUESTIONS_DATA = [
     "question_number": 7,
     "question": "Which of the following is the correct expression for a Gaussian membership function, if the parameters are specified by [𝜇,𝜎]?",
     "options": {
-      "a": "𝑒 ()",
-      "b": "𝑒 .×",
-      "c": "𝑒",
+      "a": "𝑒ିభ మቀೣషഋ ഑ቁమ",
+      "b": "𝑒ି൬(ೣషഋ)మ మ഑మ൰",
+      "c": "𝑒ି൬଴.ହ×ቀೣషഋ ഑మቁమ ൰",
       "d": "None of the above"
     },
     "correct_answers": [
@@ -116,7 +116,7 @@ const QUESTIONS_DATA = [
     "id": "a1_q8",
     "assignment": 1,
     "question_number": 8,
-    "question": "How does the width of a Gaussian membership function change with an increase in the value of sigma (𝜎)?",
+    "question": "How does the width of a Gaussian membership function change with an increase in the value of sigma ( 𝜎)?",
     "options": {
       "a": "Increases",
       "b": "Decreases",
@@ -664,13 +664,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "Explanation: Multiplication can distort the triangular shape, potentially violating convexity or normality."
+    "explanation": "Multiplication can distort the triangular shape, potentially violating convexity or normality."
   },
   {
     "id": "a5_q2",
     "assignment": 5,
     "question_number": 2,
-    "question": ". WWhhiicchh pprrooppeerrttyy eennssuurreess tthhaatt aa ffuuzzzzyy sseett’’ss αα-cuts are intervals?",
+    "question": "Which property ensures that a fuzzy set’s α-cuts are intervals?",
     "options": {
       "a": "Normality",
       "b": "Convexity",
@@ -680,13 +680,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "EExxppllaannaattiioonn:: CCoonnvveexxiittyy gguuaarraanntteeeess tthhaatt αα-ccuuttss aarree iinntteerrvvaallss,, aa kkeeyy rreeqquuiirreemmeenntt ffoorr fuzzy numbers."
+    "explanation": "Convexity guarantees that α-cuts are intervals, a key requirement for fuzzy numbers."
   },
   {
     "id": "a5_q3",
     "assignment": 5,
     "question_number": 3,
-    "question": "FFoorr ccoonnttiinnuuoouuss ffuuzzzzyy nnuummbbeerrss,, ddiivviissiioonn iinnvvoollvveess::",
+    "question": "For continuous fuzzy numbers, division involves:",
     "options": {
       "a": "Summing membership values",
       "b": "Integrating over the domain",
@@ -697,7 +697,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "e"
     ],
-    "explanation": "Explanation: FFFooorrr cccooonnntttiiinnnuuuooouuusss fffuuuzzzzzzyyy nnnuuummmbbbeeerrrsss,,, dddiiivvviiisssiiiooonnn iiisss pppeeerrrfffooorrrmmmeeeddd uuusssiiinnnggg ααα-cut aarriitthhmmeettiicc,, mmeeaanniinngg tthhee ddiivviissiioonn ooppeerraattiioonn iiss ccaarrrriieedd oouutt aatt eeaacchh αα-ccuutt lleevveell.. GGiivveenn ttwwoo ffuuzzzzyy nnuummbbeerrss AA aanndd BB ((wwhheerree, B dooeess nnoott ccoonnttaaiinn zzeerroo)),, tthheeiirr ddiivviissiioonn iiss computed as: This means:  Membership values are not summed (eliminating option a).  Integration is not required for division (eliminating option b).  Subtracting supports does not define division in fuzzy arithmetic (eliminating option c).  Multiplying α-cuts is incorrect, as division follows interval arithmetic at α-cuts..."
+    "explanation": "For continuous fuzzy numbers, division is performed using α-cut arithmetic, meaning the division operation is carried out at each α-cut level. Since none of the given choices correctly describe the division of fuzzy numbers, the correct answer is (e) None of the above."
   },
   {
     "id": "a5_q4",
@@ -713,7 +713,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "Explanation: Division can violate both convexity and normality, disqualifying the result as a fuzzy number."
+    "explanation": "Division can violate both convexity and normality, disqualifying the result as a fuzzy number."
   },
   {
     "id": "a5_q5",
@@ -729,13 +729,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "Explanation: The universe of discourse (UoD) is the complete range of values that a variable can take. In fuzzy arithmetic, the UoD is crucial because it defines the domain within which fuzzy sets and their operations are valid.Fuzzy logic operates on degrees of truth rather than binary (crisp) logic, so enforcing binary compatibility is not the purpose of UoD.The UoD ensures that fuzzy arithmetic operations remain within a logically and contextually appropriate range.While a well-defined UoD may improve efficiency, its primary role is not to speed up computations but to maintain meaningful calculations.The UoD does not necessarily ensure symmetry in fuzzy arithmetic.Thus, the correct answer is (b), as the universe of discourse primarily limits fuzzy operations to meaningful ranges."
+    "explanation": "The universe of discourse (UoD) is the complete range of values that a variable can take. In fuzzy arithmetic, the UoD is crucial because it defines the domain within which fuzzy sets and their operations are valid."
   },
   {
     "id": "a5_q6",
     "assignment": 5,
     "question_number": 6,
-    "question": "The complement of a fuzzy set A with membership 𝜇 (𝑥) = 0.7 is:",
+    "question": "The complement of a fuzzy set A with membership μA(x) = 0.7 is:",
     "options": {
       "a": "0",
       "b": "1/0.7",
@@ -745,7 +745,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "Explanation: The basic fuzzy complement is defined as: 1-𝜇 (𝑥)."
+    "explanation": "The basic fuzzy complement is defined as: 1 - μA(x)."
   },
   {
     "id": "a5_q7",
@@ -761,7 +761,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "Explanation: For large λ, 𝑁(𝜇) = approaches 0 (if μ> 0)."
+    "explanation": "For large λ, N(μ) approaches 0 (if μ > 0)."
   },
   {
     "id": "a5_q8",
@@ -769,21 +769,21 @@ const QUESTIONS_DATA = [
     "question_number": 8,
     "question": "In Yager’s complement, if w=2, the complement of μ=0.5 is:",
     "options": {
-      "a": "√1−0.5",
-      "b": "(1−0.5)",
+      "a": "√(1−0.5²)",
+      "b": "(1−0.5)^(1/2)",
       "c": "1−0.5",
       "d": "√0.5"
     },
     "correct_answers": [
       "a"
     ],
-    "explanation": "Explanation: Yager’s formula:𝑁(𝜇) = (1−𝜇). For w=2:√1−0.5 = √0.75."
+    "explanation": "Yager’s formula: N(μ)=(1−μ^w)^(1/w). For w=2: √(1−0.5²) = √0.75."
   },
   {
     "id": "a5_q9",
     "assignment": 5,
     "question_number": 9,
-    "question": "Which T-norm produces the highest membership value for intersection between𝜇 (𝑥)=0.6 and 𝜇 (𝑥)=0.8?",
+    "question": "Which T-norm produces the highest membership value for intersection between μA(x)=0.6 and μB(x)=0.8?",
     "options": {
       "a": "Minimum",
       "b": "Algebraic product",
@@ -793,7 +793,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "Explanation: Minimum (0.6) is the largest T-norm value here."
+    "explanation": "Minimum (0.6) is the largest T-norm value here."
   },
   {
     "id": "a5_q10",
@@ -801,15 +801,15 @@ const QUESTIONS_DATA = [
     "question_number": 10,
     "question": "Which axiom is unique to T-norms but not S-norms?",
     "options": {
-      "a": "𝑇(1,𝑎) = 𝑎",
-      "b": "𝑆(0.𝑎) = 𝑎",
+      "a": "T(1,a) = a",
+      "b": "S(0,a) = a",
       "c": "Associativity",
       "d": "Non-decreasing"
     },
     "correct_answers": [
       "a"
     ],
-    "explanation": "Explanation: The boundary condition 𝑇(1,𝑎) = 𝑎 ensures compatibility with crisp logic for T-norms."
+    "explanation": "The boundary condition T(1,a) = a ensures compatibility with crisp logic for T-norms."
   },
   {
     "id": "a6_q1",
@@ -1016,7 +1016,7 @@ const QUESTIONS_DATA = [
     "id": "a7_q3",
     "assignment": 7,
     "question_number": 3,
-    "question": "In the projection of a fuzzy relation setR(A , A , A ,….A) onto sets A1, A2, ..., Ak, what does 'k' 1 2 3 k represent?",
+    "question": "In the projection of a fuzzy relation setR(A 1, A2, A3,….Ak) onto sets A1, A2, ..., Ak, what does 'k' represent?",
     "options": {
       "a": "The number of elements in the Cartesian product of the universe of discourse",
       "b": "The number of dimensions retained in the projection",
@@ -1112,7 +1112,7 @@ const QUESTIONS_DATA = [
     "id": "a7_q9",
     "assignment": 7,
     "question_number": 9,
-    "question": "In the context of the extension principle, what does \"f-1(Y)\" represent?",
+    "question": "In the context of the extension principle, what does \" f-1(Y)\" represent?",
     "options": {
       "a": "The inverse of the membership function",
       "b": "The inverse of the mapping function",
@@ -1367,7 +1367,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The value of “Very Lazy” will be: 𝜇 (𝑥)/𝑥 = 𝜇 (𝑥) /𝑥 ∈ ∈ 𝜇 (𝑥)/𝑥 =(1.0)⁄1+(0.5)⁄2+(0.3)⁄3+(0.2)⁄4 ∈ 𝜇 (𝑥)/𝑥 =1.000⁄1+0.250⁄2+0.090⁄3+0.040⁄4 ∈"
+    "explanation": "The value of “Very Lazy” will be: ෍𝜇௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=෍ൣ𝜇௅௔௭௬(𝑥)൧ଶ/𝑥 ௫∈௑ ෍𝜇௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=(1.0)ଶ1⁄+(0.5)ଶ2+(0.3)ଶ3⁄+(0.2)ଶ4⁄ ⁄ ෍𝜇௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑= 1.000 1⁄+0.250 2+0.090 3 ⁄+0.040 4⁄ ⁄"
   },
   {
     "id": "a9_q5",
@@ -1384,7 +1384,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The value of “More Or Less Lazy” will be: / 𝜇 (𝑥)/𝑥 = 𝜇 /𝑥 ∈ ∈ 𝜇 (𝑥)/𝑥 =(1.0).⁄1+(0.5).⁄2+(0.3).⁄3+(0.2).⁄4 ∈ 𝜇 (𝑥)/𝑥 =1.0⁄1+0.707⁄2+0.547⁄3+0.447⁄4 ∈"
+    "explanation": "The value of “More Or Less Lazy” will be: ෍𝜇ெ௢௥௘ ை௥ ௅௘௦௦ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=෍ൣ𝜇௅௔௭௬൧ଵ/ଶ/𝑥 ௫∈௑ ෍𝜇ெ௢௥௘ ை௥ ௅௘௦௦ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=(1.0)଴.ହ1⁄+(0.5)଴.ହ2+(0.3)଴.ହ3⁄+(0.2)଴.ହ4⁄ ⁄ ෍𝜇ெ௢௥௘ ை௥ ௅௘௦௦ ௅௔௭௬(𝑥)/𝑥 ௫∈௑= 1.0 1⁄+0.707 2+0.547 3 ⁄+0.447 4⁄ ⁄"
   },
   {
     "id": "a9_q6",
@@ -1401,7 +1401,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "e"
     ],
-    "explanation": "The value of “Very VeryLazy” will be: 𝜇 (𝑥)/𝑥 = 𝜇 𝜇 (𝑥) /𝑥 = 𝜇 (𝑥) /𝑥 ∈ ∈ ∈ 𝜇 (𝑥)/𝑥 =(1.0)⁄1+(0.5)⁄2+(0.3)⁄3+(0.2)⁄4 ∈ 𝜇 (𝑥)/𝑥 =1.0⁄1+0.0625⁄2+0.0081⁄3+0.0016⁄4 ∈"
+    "explanation": "The value of “Very VeryLazy” will be: ෍𝜇௏௘௥௬ ௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=෍ቂ𝜇௏௘௥௬ቀ𝜇௏௘௥௬ ௅௔௭௬(𝑥)ቁቃଶ /𝑥 ௫∈௑ =෍ൣ𝜇௅௔௭௬(𝑥)൧ସ/𝑥 ௫∈௑ ෍𝜇௏௘௥௬ ௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑=(1.0)ସ1⁄+(0.5)ସ2+(0.3)ସ3⁄+(0.2)ସ4⁄ ⁄ ෍𝜇௏௘௥௬ ௏௘௥௬ ௅௔௭௬(𝑥)/𝑥 ௫∈௑= 1.0 1⁄+0.0625 2+0.0081 3 ⁄+0.0016 4 ⁄ ⁄"
   },
   {
     "id": "a9_q7",
@@ -1418,7 +1418,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "e"
     ],
-    "explanation": "The value of “NOT(Lazy)” is defined as, 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)=¬𝐿𝑎𝑧𝑦= 1−𝜇 (𝑥)⁄𝑥 ∈ 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)=(1−1.0)⁄1+(1−0.5)⁄2+(1−0.3)⁄3+(1−0.2)⁄4 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)=0⁄1+0.5⁄2+0.7⁄3+0.8⁄4"
+    "explanation": "The value of “NOT(Lazy)” is defined as, 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)= ¬𝐿𝑎𝑧𝑦=නൣ1−𝜇௅௔௭௬(𝑥)൧𝑥⁄ ௫∈௑ 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)=(1−1.0)1⁄+(1−0.5)2+(1−0.3)3⁄+(1−0.2)4⁄ ⁄ 𝑁𝑂𝑇(𝐿𝑎𝑧𝑦)= 0 1⁄+0.5 2+0.7 3 ⁄+0.8 4⁄ ⁄"
   },
   {
     "id": "a9_q8",
@@ -1434,7 +1434,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "𝐴 𝐴𝑁𝐷 𝐵 =min(1.0,0.5)⁄1+min(0.5,1.0)⁄2+min(0.3,0.7)⁄3+min(0.2,0.1)⁄4 𝐴 𝐴𝑁𝐷 𝐵 =0.5⁄1+0.5⁄2+0.3⁄3+0.1⁄4"
+    "explanation": "𝐴 𝐴𝑁𝐷 𝐵= min(1.0,0.5) 1 ⁄+min(0.5,1.0) 2+min(0.3,0.7) 3 ⁄+min(0.2,0.1) 4 ⁄ ⁄ 𝐴 𝐴𝑁𝐷 𝐵= 0.5 1⁄+0.5 2+0.3 3 ⁄+0.1 4⁄ ⁄"
   },
   {
     "id": "a9_q9",
@@ -1450,7 +1450,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "𝐴 𝑂𝑅 𝐵 =max(1.0,0.5)⁄1+max(0.5,1.0)⁄2+max(0.3,0.7)⁄3+max(0.2,0.1)⁄4 𝐴 𝑂𝑅 𝐵 =1.0⁄1+1.0⁄2+0.7⁄3+0.2⁄4"
+    "explanation": "𝐴 𝑂𝑅 𝐵= max(1.0,0.5) 1 ⁄+max(0.5,1.0) 2+max(0.3,0.7) 3 ⁄+max(0.2,0.1) 4 ⁄ ⁄ 𝐴 𝑂𝑅 𝐵= 1.0 1⁄+1.0 2+0.7 3 ⁄+0.2 4⁄ ⁄"
   },
   {
     "id": "a9_q10",
@@ -1500,7 +1500,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "𝐴 = 0.1/1 + 0.3/2 + 1.0/3 + 0.5/4 For 𝑥 =1⇒𝜇 (𝑥)=0.1⇒0.0≤𝜇 (𝑥)≤0.5 : 2𝐴() =2(0.1)()/1=2×0.01/1=0.02/1 For 𝑥 =2⇒𝜇 (𝑥)=0.3⇒0.0≤𝜇 (𝑥)≤0.5 : 2𝐴() =2(0.3)()/2=2×0.09/2=0.18/2 For 𝑥 =3⇒𝜇 (𝑥)=1.0⇒0.5≤𝜇 (𝑥)≤1.0 : ¬2(¬𝐴)() =¬2(1−1.0)()/3=(1−0.00)/3=1.00/3 For 𝑥 =4⇒𝜇 (𝑥)=0.5⇒0.0≤𝜇 (𝑥)≤0.5 : 2𝐴() =2(0.5)()/2=2×0.25/2=0.50/2 𝐼𝑁𝑇(𝐴) =0.02/1+0.18/2+1.00/3+0.50/4"
+    "explanation": "𝐴 = 0.1/1 + 0.3/2 + 1.0/3 + 0.5/4 For 𝑥= 1 ⇒𝜇஺(𝑥)= 0.1 ⇒ 0.0 ≤ 𝜇஺(𝑥)≤ 0.5 : 2𝐴(ଶ)= 2(0.1)(ଶ)/1 = 2×0.01/1 = 0.02/1 For 𝑥= 2 ⇒𝜇஺(𝑥)= 0.3 ⇒ 0.0 ≤ 𝜇஺(𝑥)≤ 0.5 : 2𝐴(ଶ)= 2(0.3)(ଶ)/2 = 2×0.09/2 = 0.18/2 For 𝑥= 3 ⇒𝜇஺(𝑥)= 1.0 ⇒ 0.5 ≤ 𝜇஺(𝑥)≤ 1.0 : ¬2(¬𝐴)(ଶ)= ¬2(1−1.0)(ଶ)/3 =(1−0.00)/3 = 1.00/3 For 𝑥= 4 ⇒𝜇஺(𝑥)= 0.5 ⇒ 0.0 ≤ 𝜇஺(𝑥)≤ 0.5 : 2𝐴(ଶ)= 2(0.5)(ଶ)/2 = 2×0.25/2 = 0.50/2 𝐼𝑁𝑇(𝐴)= 0.02/1+0.18/2+1.00/3+0.50/4"
   },
   {
     "id": "a10_q3",
@@ -1743,7 +1743,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "Given aggregated output can be plotted as: 𝜇(𝑧) 1.0 2 5 7 8 𝑧 The defuzzified crisp output value using mean of maximum will be: z* = (5+7)/2 = 12/2 = 6"
+    "explanation": "Given aggregated output can be plotted as: The defuzzified crisp output value using mean of maximum will be: z* = (5+7)/2 = 12/2 = 6"
   },
   {
     "id": "a11_q8",
@@ -1766,7 +1766,7 @@ const QUESTIONS_DATA = [
     "id": "a11_q9",
     "assignment": 11,
     "question_number": 9,
-    "question": "For the problem statement given in Q.7., what will be defuzzified crisp output value using largest of maximum?",
+    "question": "For the problem statement given in Q.7., what will be defuzzified crisp output value using largest of maximum? 𝑧 2 5 7 8 𝜇(𝑧) 1.0",
     "options": {
       "a": "6",
       "b": "7",
@@ -1788,7 +1788,7 @@ const QUESTIONS_DATA = [
       "a": "The defuzzified value z* is the average of the values of z for which the membership function has its maximum value.",
       "b": "The defuzzified value z* is the average of the values of z for which the membership function has its minimum value.",
       "c": "The defuzzified value z* is the maximum of the values of z.",
-      "d": "The defuzzified value z∗is the minimum of the values of z."
+      "d": "The defuzzified value z ∗is the minimum of the values of z."
     },
     "correct_answers": [
       "a"
@@ -1799,7 +1799,7 @@ const QUESTIONS_DATA = [
     "id": "a12_q1",
     "assignment": 12,
     "question_number": 1,
-    "question": "A TSK fuzzy model with two rules is given as below. 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” The input membership functions are defined as follows: 𝑥(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5]) 𝑥(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6]) 𝑦(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4]) 𝑦(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10]) For crisp inputs𝑥 =1 and𝑦 =1, which of the following set of rules will be applicable?",
+    "question": "A TSK fuzzy model with two rules is given as below. 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” The input membership functions are defined as follows: 𝑥(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[1,3,5]) 𝑥(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[2,4,6]) 𝑦(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[0,2,4]) 𝑦(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[6,8,10]) For crisp inputs 𝑥= 1 and𝑦= 1, which of the following set of rules will be applicable?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1809,13 +1809,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 1−1 5−1 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(0.0,2),0)=max(0.0,0)=0 3−1 5−3 1−2 6−1 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(−0.5,2.5),0)=max(−0.5,0)=0 4−2 6−4 1−0 4−1 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(0.5,1.5),0)=max(0.5,0)=0.5 2−0 4−2 1−6 10−1 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(−2.5,4.5),0)=0 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑦 𝑖𝑠 𝐿𝑂𝑊”⇒ No such rule is present; hence the option (d) is the correct answer."
+    "explanation": "The triangular membership function is defined using, 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒 (𝑥;[𝑎,𝑏,𝑐])= maxቀminቀ𝑥−𝑎 𝑏−𝑎,𝑐−𝑥 𝑐−𝑏ቁ,0ቁ The intersection of crisp inputs with input membership functions are: 𝑥(𝐿𝑂𝑊)|௫ୀଵ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[1,3,5])= max൬min൬1−1 3−1,5−1 5−3൰,0൰= max(min(0.0,2),0)= max(0.0,0)= 0 𝑥(𝐻𝐼𝐺𝐻)|௫ୀଵ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[2,4,6])= max൬min൬1−2 4−2,6−1 6−4൰,0൰= max(min(−0.5,2.5),0)= max(−0.5,0)= 0 𝑦(𝐿𝑂𝑊)|௬ୀଵ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[0,2,4])= max൬min൬1−0 2−0,4−1 4−2൰,0൰= max(min(0.5,1.5),0)= max(0.5,0)= 0.5 𝑦(𝐻𝐼𝐺𝐻)|௬ୀଵ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[6,8,10])= max൬min൬1−6 8−6,10−1 10−8൰,0൰= max(min(−2.5,4.5),0)= 0 The applicable combinations of rule will be: 𝐼𝐹 “𝑦 𝑖𝑠 𝐿𝑂𝑊” ⇒ No such rule is present; hence the option (d) is the correct answer."
   },
   {
     "id": "a12_q2",
     "assignment": 12,
     "question_number": 2,
-    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicablefor crisp inputs𝑥 =2 and𝑦 =7?",
+    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicablefor crisp inputs 𝑥= 2 and𝑦= 7?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1825,7 +1825,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 2−1 5−2 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(0.5,1.5),0) 3−1 5−3 =max(0.5,0)=0.5 2−2 6−2 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(0,2),0)=max(0,0) 4−2 6−4 =0 7−0 4−7 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(3.5,−1.5),0)=0 2−0 4−2 7−6 10−7 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(0.5,1.5),0)=0.5 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻”⇒ Rule 2 is applicable."
+    "explanation": "The triangular membership function is defined using, 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒 (𝑥;[𝑎,𝑏,𝑐])= maxቀminቀ𝑥−𝑎 𝑏−𝑎,𝑐−𝑥 𝑐−𝑏ቁ,0ቁ The intersection of crisp inputs with input membership functions are: 𝑥(𝐿𝑂𝑊)|௫ୀଶ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[1,3,5])= max൬min൬2−1 3−1,5−2 5−3൰,0൰= max(min(0.5,1.5),0) = max(0.5,0)= 0.5 𝑥(𝐻𝐼𝐺𝐻)|௫ୀଶ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[2,4,6])= max൬min൬2−2 4−2,6−2 6−4൰,0൰= max(min(0,2),0)= max(0,0) = 0 𝑦(𝐿𝑂𝑊)|௬ୀ଻=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[0,2,4])= max൬min൬7−0 2−0,4−7 4−2൰,0൰= max(min(3.5,−1.5),0)= 0 𝑦(𝐻𝐼𝐺𝐻)|௬ୀ଻=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[6,8,10])= max൬min൬7−6 8−6,10−7 10−8൰,0൰= max(min(0.5,1.5),0)= 0.5 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” ⇒ Rule 2 is applicable."
   },
   {
     "id": "a12_q3",
@@ -1857,7 +1857,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤 = 𝑥(𝐿𝑂𝑊)| =0.5 𝑤 = 𝑦(𝐻𝐼𝐺𝐻)| =0.5 The firing strength will be obtained using max-min composition as, 𝑤 =min(𝑤 ,𝑤 )=min(0.5,0.5)=0.50"
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤ଵ= 𝑥(𝐿𝑂𝑊)|௫ୀଶ= 0.5 𝑤ଶ= 𝑦(𝐻𝐼𝐺𝐻)|௬ୀ଻= 0.5 The firing strength will be obtained using max-min composition as, 𝑤= min(𝑤ଵ,𝑤ଶ)= min(0.5,0.5)= 0.50"
   },
   {
     "id": "a12_q5",
@@ -1873,13 +1873,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤 = 𝑥(𝐿𝑂𝑊)| =0.5 𝑤 = 𝑦(𝐻𝐼𝐺𝐻)| =0.5 The firing strength will be obtained using max-product composition as, 𝑤 =𝑤 ×𝑤 =0.5×0.5=0.25"
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤ଵ= 𝑥(𝐿𝑂𝑊)|௫ୀଶ= 0.5 𝑤ଶ= 𝑦(𝐻𝐼𝐺𝐻)|௬ୀ଻= 0.5 The firing strength will be obtained using max-product composition as, 𝑤=𝑤ଵ×𝑤ଶ= 0.5×0.5 = 0.25"
   },
   {
     "id": "a12_q6",
     "assignment": 12,
     "question_number": 6,
-    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicable for crisp inputs 𝑥 =5 and 𝑦 =3?",
+    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicable for crisp inputs 𝑥= 5 and 𝑦= 3?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1889,7 +1889,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 5−1 5−5 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(2,0),0)=max(0.5,0) 3−1 5−3 =0 5−2 6−5 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(1.5,0.5),0) 4−2 6−4 =max(0.5,0)=0.5 3−0 4−3 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(1.5,0.5),0)=0.5 2−0 4−2 3−6 10−3 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(−1.5,3.5),0)=0 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊”⇒Rule 1 is applicable."
+    "explanation": "The triangular membership function is defined using, 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒 (𝑥;[𝑎,𝑏,𝑐])= maxቀminቀ𝑥−𝑎 𝑏−𝑎,𝑐−𝑥 𝑐−𝑏ቁ,0ቁ The intersection of crisp inputs with input membership functions are: 𝑥(𝐿𝑂𝑊)|௫ୀହ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[1,3,5])= max൬min൬5−1 3−1,5−5 5−3൰,0൰= max(min(2,0),0)= max(0.5,0) = 0 𝑥(𝐻𝐼𝐺𝐻)|௫ୀହ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑥;[2,4,6])= max൬min൬5−2 4−2,6−5 6−4൰,0൰= max(min(1.5,0.5),0) = max(0.5,0)= 0.5 𝑦(𝐿𝑂𝑊)|௬ୀଷ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[0,2,4])= max൬min൬3−0 2−0,4−3 4−2൰,0൰= max(min(1.5,0.5),0)= 0.5 𝑦(𝐻𝐼𝐺𝐻)|௬ୀଷ=𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒 (𝑦;[6,8,10])= max൬min൬3−6 8−6,10−3 10−8൰,0൰= max(min(−1.5,3.5),0)= 0 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” ⇒Rule 1 is applicable."
   },
   {
     "id": "a12_q7",
@@ -1905,7 +1905,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-min composition as, 𝑤 =min(𝑤 ,𝑤 )=min(0.5,0.5)=0.50"
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-min composition as, 𝑤= min(𝑤ଵ,𝑤ଶ)= min(0.5,0.5)= 0.50"
   },
   {
     "id": "a12_q8",
@@ -1921,7 +1921,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-product composition as, 𝑤 =𝑤 ×𝑤 =0.5×0.5=0.25"
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-product composition as, 𝑤=𝑤ଵ×𝑤ଶ= 0.5×0.5 = 0.25"
   },
   {
     "id": "a12_q9",
@@ -1937,7 +1937,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The aggregated weighted output is calculated using, 𝑤×𝑧 𝑧∗ = =𝑧 𝑤 Since the applicable rule for given crisp inputs 𝑥 =5 and𝑦 =3 is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑧∗ =𝑧 =𝑥+2=5+2=7"
+    "explanation": "The aggregated weighted output is calculated using, 𝑧∗=𝑤×𝑧 𝑤=𝑧 Since the applicable rule for given crisp inputs 𝑥= 5 and𝑦= 3 is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑧∗=𝑧=𝑥+2 = 5+2 = 7"
   },
   {
     "id": "a12_q10",
@@ -1953,6 +1953,6 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The aggregated weighted output is calculated using, 𝑤×𝑧 𝑧∗ = =𝑧 𝑤 Since the applicable rule for given crisp inputs 𝑥 =2 and𝑦 =7 is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑧∗ =𝑧 =𝑦+1=7+1=8"
+    "explanation": "The aggregated weighted output is calculated using, 𝑧∗=𝑤×𝑧 𝑤=𝑧 Since the applicable rule for given crisp inputs 𝑥= 2 and𝑦= 7 is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑧∗=𝑧=𝑦+1 = 7+1 = 8"
   }
 ];
