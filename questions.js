@@ -78,7 +78,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a1_q6",
@@ -110,7 +110,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a1_q8",
@@ -126,7 +126,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a1_q9",
@@ -142,7 +142,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a1_q10",
@@ -158,7 +158,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a2_q1",
@@ -175,7 +175,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a2_q2",
@@ -191,7 +191,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a2_q3",
@@ -207,7 +207,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a2_q4",
@@ -223,7 +223,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a2_q5",
@@ -239,7 +239,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a2_q6",
@@ -255,7 +255,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a2_q7",
@@ -271,7 +271,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a2_q8",
@@ -288,7 +288,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a2_q9",
@@ -305,7 +305,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a2_q10",
@@ -322,7 +322,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a3_q1",
@@ -338,7 +338,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a3_q2",
@@ -354,7 +354,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a3_q3",
@@ -371,7 +371,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "e"
     ],
-    "explanation": "The correct answer is (e)."
+    "explanation": ""
   },
   {
     "id": "a3_q4",
@@ -387,7 +387,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a3_q5",
@@ -403,7 +403,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a3_q6",
@@ -419,7 +419,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a3_q7",
@@ -435,7 +435,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a3_q8",
@@ -451,7 +451,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a3_q9",
@@ -467,7 +467,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a3_q10",
@@ -483,7 +483,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a4_q1",
@@ -500,7 +500,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a4_q2",
@@ -517,7 +517,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a4_q3",
@@ -534,7 +534,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a4_q4",
@@ -550,7 +550,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a4_q5",
@@ -566,7 +566,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a4_q6",
@@ -582,7 +582,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a4_q7",
@@ -599,7 +599,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a4_q8",
@@ -615,7 +615,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a4_q9",
@@ -631,7 +631,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a4_q10",
@@ -648,7 +648,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a5_q1",
@@ -826,7 +826,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a6_q2",
@@ -843,7 +843,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a6_q3",
@@ -860,7 +860,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a6_q4",
@@ -877,7 +877,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a6_q5",
@@ -893,7 +893,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a6_q6",
@@ -910,7 +910,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a6_q7",
@@ -927,7 +927,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a6_q8",
@@ -944,7 +944,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a6_q9",
@@ -961,7 +961,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a6_q10",
@@ -978,7 +978,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a7_q1",
@@ -994,7 +994,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a7_q2",
@@ -1010,7 +1010,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a7_q3",
@@ -1026,7 +1026,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a7_q4",
@@ -1042,7 +1042,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a7_q5",
@@ -1058,7 +1058,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a7_q6",
@@ -1074,7 +1074,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a7_q7",
@@ -1090,7 +1090,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a7_q8",
@@ -1106,7 +1106,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a7_q9",
@@ -1122,7 +1122,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a7_q10",
@@ -1138,7 +1138,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a8_q1",
@@ -1155,7 +1155,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a8_q2",
@@ -1172,7 +1172,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a8_q3",
@@ -1189,7 +1189,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a8_q4",
@@ -1205,7 +1205,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a8_q5",
@@ -1221,7 +1221,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a8_q6",
@@ -1238,7 +1238,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a8_q7",
@@ -1254,7 +1254,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a8_q8",
@@ -1270,7 +1270,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a8_q9",
@@ -1286,7 +1286,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a8_q10",
@@ -1302,7 +1302,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a9_q1",
@@ -1318,7 +1318,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a9_q2",
@@ -1334,7 +1334,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a9_q3",
@@ -1350,7 +1350,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a9_q4",
@@ -1467,7 +1467,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
   },
   {
     "id": "a10_q1",
@@ -1484,7 +1484,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a10_q2",
@@ -1516,7 +1516,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a10_q4",
@@ -1532,7 +1532,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a10_q5",
@@ -1548,7 +1548,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a10_q6",
@@ -1564,7 +1564,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The correct answer is (d)."
+    "explanation": ""
   },
   {
     "id": "a10_q7",
@@ -1580,7 +1580,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a10_q8",
@@ -1596,7 +1596,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a10_q9",
@@ -1612,7 +1612,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a10_q10",
@@ -1628,7 +1628,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a11_q1",
@@ -1645,7 +1645,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "The correct answer is (b)."
+    "explanation": ""
   },
   {
     "id": "a11_q2",
@@ -1662,7 +1662,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "e"
     ],
-    "explanation": "The correct answer is (e)."
+    "explanation": ""
   },
   {
     "id": "a11_q3",
@@ -1678,7 +1678,7 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a11_q4",
@@ -1694,7 +1694,90 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The correct answer is (c)."
+    "explanation": ""
+  },
+  {
+    "id": "a11_q5",
+    "assignment": 11,
+    "question_number": 5,
+    "question": "Let us consider a Mamdani fuzzy model with single rule and multiple antecedents is defined as, Rule: IF x is A and y is B THEN z is C Fact (Input): x is A’ and y is B’ Conclusion: z is C’ If the points of intersection for fuzzy inputs A’ and B’ with A and B, respectively are represented by weights w1=0.70 and w2=0.50, what will be the value of weight obtained using max-min composition for the truncation of C to get the output C’?",
+    "options": {
+      "a": "0.70",
+      "b": "0.50",
+      "c": "0.35",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "b"
+    ],
+    "explanation": "For max-min composition of Mamdani fuzzy model with single rule and multiple antecedents, the weight for the truncation of C to get the output C’ is obtained as, w = min(w1,w2) = min(0.70,0.50) = 0.50"
+  },
+  {
+    "id": "a11_q6",
+    "assignment": 11,
+    "question_number": 6,
+    "question": "For the Mamdani fuzzy model and weights value defined in Q.5., what will be the value of weight obtained using max-product composition for the truncation of C to get the output C’?",
+    "options": {
+      "a": "0.70",
+      "b": "0.50",
+      "c": "0.35",
+      "d": "None of the above"
+    },
+    "correct_answers": [
+      "c"
+    ],
+    "explanation": "For max-product composition of Mamdani fuzzy model with single rule and multiple antecedents, the weight for the truncation of C to get the output C’ is obtained as, w = w1*w2 = 0.70*0.50 = 0.35"
+  },
+  {
+    "id": "a11_q7",
+    "assignment": 11,
+    "question_number": 7,
+    "question": "If the aggregated output of a Mamdani fuzzy model is a trapezoidal shaped output defined using parameters [2,5,7,8] with maximum membership function value 1.0, what will be the defuzzified crisp output value using mean of maximum?",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "5",
+      "d": "2",
+      "e": "8"
+    },
+    "correct_answers": [
+      "a"
+    ],
+    "explanation": "Given aggregated output can be plotted as: 𝜇(𝑧) 1.0 2 5 7 8 𝑧 The defuzzified crisp output value using mean of maximum will be: z* = (5+7)/2 = 12/2 = 6"
+  },
+  {
+    "id": "a11_q8",
+    "assignment": 11,
+    "question_number": 8,
+    "question": "For the problem statement given in Q.7., what will be defuzzified crisp output value using smallest of maximum?",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "5",
+      "d": "2",
+      "e": "8"
+    },
+    "correct_answers": [
+      "c"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "a11_q9",
+    "assignment": 11,
+    "question_number": 9,
+    "question": "For the problem statement given in Q.7., what will be defuzzified crisp output value using largest of maximum?",
+    "options": {
+      "a": "6",
+      "b": "7",
+      "c": "5",
+      "d": "2",
+      "e": "8"
+    },
+    "correct_answers": [
+      "b"
+    ],
+    "explanation": ""
   },
   {
     "id": "a11_q10",
@@ -1710,13 +1793,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The correct answer is (a)."
+    "explanation": ""
   },
   {
     "id": "a12_q1",
     "assignment": 12,
     "question_number": 1,
-    "question": "A TSK fuzzy model with two rules is given as below. RULE 1: IF \"x is HIGH\" AND \"y is LOW\" THEN \"z = x + 2\". RULE 2: IF \"x is LOW\" AND \"y is HIGH\" THEN \"z = y + 1\". The input membership functions are: x(LOW) = triangle(x;[1,3,5]), x(HIGH) = triangle(x;[2,4,6]), y(LOW) = triangle(y;[0,2,4]), y(HIGH) = triangle(y;[6,8,10]). For crisp inputs x=1 and y=1, which of the following set of rules will be applicable?",
+    "question": "A TSK fuzzy model with two rules is given as below. 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” The input membership functions are defined as follows: 𝑥(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5]) 𝑥(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6]) 𝑦(𝐿𝑂𝑊) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4]) 𝑦(𝐻𝐼𝐺𝐻) = 𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10]) For crisp inputs𝑥 =1 and𝑦 =1, which of the following set of rules will be applicable?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1726,13 +1809,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "For x=1: x(LOW)=0, x(HIGH)=0. For y=1: y(LOW)=0.5, y(HIGH)=0. Since only y is LOW has non-zero membership, and no rule has only \"y is LOW\" as antecedent, no rule is applicable."
+    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 1−1 5−1 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(0.0,2),0)=max(0.0,0)=0 3−1 5−3 1−2 6−1 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(−0.5,2.5),0)=max(−0.5,0)=0 4−2 6−4 1−0 4−1 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(0.5,1.5),0)=max(0.5,0)=0.5 2−0 4−2 1−6 10−1 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(−2.5,4.5),0)=0 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑦 𝑖𝑠 𝐿𝑂𝑊”⇒ No such rule is present; hence the option (d) is the correct answer."
   },
   {
     "id": "a12_q2",
     "assignment": 12,
     "question_number": 2,
-    "question": "For the TSK model defined in Q.1, which of the following set of rules will be applicable for crisp inputs x=2 and y=7?",
+    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicablefor crisp inputs𝑥 =2 and𝑦 =7?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1742,13 +1825,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "For x=2: x(LOW)=0.5, x(HIGH)=0. For y=7: y(LOW)=0, y(HIGH)=0.5. The applicable combination is IF \"x is LOW\" AND \"y is HIGH\" which matches Rule 2."
+    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 2−1 5−2 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(0.5,1.5),0) 3−1 5−3 =max(0.5,0)=0.5 2−2 6−2 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(0,2),0)=max(0,0) 4−2 6−4 =0 7−0 4−7 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(3.5,−1.5),0)=0 2−0 4−2 7−6 10−7 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(0.5,1.5),0)=0.5 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻”⇒ Rule 2 is applicable."
   },
   {
     "id": "a12_q3",
     "assignment": 12,
     "question_number": 3,
-    "question": "For the applicable rules obtained using given crisp inputs in Q.1 (x=1, y=1), what will be the firing strength using max-min composition for the TSK model?",
+    "question": "For the applicable rules obtained using given crisp inputs in Q.1., what will be the firing strength using max-min composition for TSK model defined in Q.1.?",
     "options": {
       "a": "0.50",
       "b": "0.20",
@@ -1758,13 +1841,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "No rule is applicable for crisp inputs x=1 and y=1, so there is no firing strength."
+    "explanation": "No rule is applicable."
   },
   {
     "id": "a12_q4",
     "assignment": 12,
     "question_number": 4,
-    "question": "For the applicable rules obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the firing strength using max-min composition for the TSK model?",
+    "question": "For the applicable rules obtained using given crisp inputs in Q.2., what will be the firing strength using max-min composition for TSK model defined in Q.1.?",
     "options": {
       "a": "0.50",
       "b": "0.20",
@@ -1774,13 +1857,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The applicable rule is RULE 2: IF \"x is LOW\" AND \"y is HIGH\" THEN \"z = y + 1\". w1 = x(LOW)|x=2 = 0.5, w2 = y(HIGH)|y=7 = 0.5. Firing strength = min(0.5, 0.5) = 0.50."
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤 = 𝑥(𝐿𝑂𝑊)| =0.5 𝑤 = 𝑦(𝐻𝐼𝐺𝐻)| =0.5 The firing strength will be obtained using max-min composition as, 𝑤 =min(𝑤 ,𝑤 )=min(0.5,0.5)=0.50"
   },
   {
     "id": "a12_q5",
     "assignment": 12,
     "question_number": 5,
-    "question": "For the applicable rule obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the firing strength using max-product composition for the TSK model?",
+    "question": "For the applicable rule obtained using given crisp inputs in Q.2., what will be the firing strength using max-product composition for TSK model defined in Q.1.?",
     "options": {
       "a": "0.50",
       "b": "0.20",
@@ -1790,13 +1873,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The applicable rule is RULE 2. w1 = x(LOW)|x=2 = 0.5, w2 = y(HIGH)|y=7 = 0.5. Using max-product composition: w = w1 × w2 = 0.5 × 0.5 = 0.25."
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑤 = 𝑥(𝐿𝑂𝑊)| =0.5 𝑤 = 𝑦(𝐻𝐼𝐺𝐻)| =0.5 The firing strength will be obtained using max-product composition as, 𝑤 =𝑤 ×𝑤 =0.5×0.5=0.25"
   },
   {
     "id": "a12_q6",
     "assignment": 12,
     "question_number": 6,
-    "question": "For the TSK model defined in Q.1, which of the following set of rules will be applicable for crisp inputs x=5 and y=3?",
+    "question": "For TSK model defined in Q.1., which of the following set of rules will be applicable for crisp inputs 𝑥 =5 and 𝑦 =3?",
     "options": {
       "a": "Rule 2",
       "b": "Rule 1",
@@ -1806,13 +1889,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "b"
     ],
-    "explanation": "For x=5: x(LOW)=0, x(HIGH)=0.5. For y=3: y(LOW)=0.5, y(HIGH)=0. The applicable combination is IF \"x is HIGH\" AND \"y is LOW\" which matches Rule 1."
+    "explanation": "The triangular membership function is defined using, 𝑥−𝑎 𝑐−𝑥 𝑡𝑟𝑎𝑖𝑛𝑔𝑙𝑒(𝑥;[𝑎,𝑏,𝑐])=maxmin , ,0 𝑏−𝑎 𝑐−𝑏 The intersection of crisp inputs with input membership functions are: 5−1 5−5 𝑥(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[1,3,5])=maxmin , ,0=max(min(2,0),0)=max(0.5,0) 3−1 5−3 =0 5−2 6−5 𝑥(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑥;[2,4,6])=maxmin , ,0=max(min(1.5,0.5),0) 4−2 6−4 =max(0.5,0)=0.5 3−0 4−3 𝑦(𝐿𝑂𝑊)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[0,2,4])=maxmin , ,0=max(min(1.5,0.5),0)=0.5 2−0 4−2 3−6 10−3 𝑦(𝐻𝐼𝐺𝐻)| =𝑡𝑟𝑖𝑎𝑛𝑔𝑙𝑒(𝑦;[6,8,10])=maxmin , ,0=max(min(−1.5,3.5),0)=0 8−6 10−8 The applicable combinations of rule will be: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊”⇒Rule 1 is applicable."
   },
   {
     "id": "a12_q7",
     "assignment": 12,
     "question_number": 7,
-    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the firing strength using max-min composition?",
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6., what will be the firing strength using max-min composition?",
     "options": {
       "a": "0.75",
       "b": "0.00",
@@ -1822,13 +1905,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "c"
     ],
-    "explanation": "The applicable rule is RULE 1: IF \"x is HIGH\" AND \"y is LOW\" THEN \"z = x + 2\". Firing strength = min(0.5, 0.5) = 0.50."
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-min composition as, 𝑤 =min(𝑤 ,𝑤 )=min(0.5,0.5)=0.50"
   },
   {
     "id": "a12_q8",
     "assignment": 12,
     "question_number": 8,
-    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the firing strength using max-product composition?",
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6., what will be the firing strength using max-product composition?",
     "options": {
       "a": "0.75",
       "b": "0.00",
@@ -1838,13 +1921,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The applicable rule is RULE 1. Using max-product composition: w = 0.5 × 0.5 = 0.25."
+    "explanation": "Since the applicable rule is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” The firing strength will be obtained using max-product composition as, 𝑤 =𝑤 ×𝑤 =0.5×0.5=0.25"
   },
   {
     "id": "a12_q9",
     "assignment": 12,
     "question_number": 9,
-    "question": "For the applicable rule obtained using given crisp inputs in Q.6 (x=5, y=3), what will be the aggregated weighted output using max-min composition?",
+    "question": "For the applicable rule obtained using given crisp inputs in Q.6., what will be aggregated weighted output using max-min composition?",
     "options": {
       "a": "7",
       "b": "3",
@@ -1854,13 +1937,13 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "a"
     ],
-    "explanation": "The aggregated weighted output z* = z = x + 2 = 5 + 2 = 7 (since only one rule is applicable, the output equals the rule consequent)."
+    "explanation": "The aggregated weighted output is calculated using, 𝑤×𝑧 𝑧∗ = =𝑧 𝑤 Since the applicable rule for given crisp inputs 𝑥 =5 and𝑦 =3 is: 𝑅𝑈𝐿𝐸 1: 𝐼𝐹 “𝑥 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐿𝑂𝑊” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑥 + 2” 𝑧∗ =𝑧 =𝑥+2=5+2=7"
   },
   {
     "id": "a12_q10",
     "assignment": 12,
     "question_number": 10,
-    "question": "For the applicable rule obtained using given crisp inputs in Q.2 (x=2, y=7), what will be the aggregated weighted output using max-min composition?",
+    "question": "For the applicable rule obtained using given crisp inputs in Q.2., what will be aggregated weighted output using max-min composition?",
     "options": {
       "a": "7",
       "b": "3",
@@ -1870,6 +1953,6 @@ const QUESTIONS_DATA = [
     "correct_answers": [
       "d"
     ],
-    "explanation": "The aggregated weighted output z* = z = y + 1 = 7 + 1 = 8 (since only Rule 2 is applicable, the output equals the rule consequent)."
+    "explanation": "The aggregated weighted output is calculated using, 𝑤×𝑧 𝑧∗ = =𝑧 𝑤 Since the applicable rule for given crisp inputs 𝑥 =2 and𝑦 =7 is: 𝑅𝑈𝐿𝐸 2: 𝐼𝐹 “𝑥 𝑖𝑠 𝐿𝑂𝑊” 𝐴𝑁𝐷 “𝑦 𝑖𝑠 𝐻𝐼𝐺𝐻” 𝑇𝐻𝐸𝑁 “𝑧 = 𝑦 + 1” 𝑧∗ =𝑧 =𝑦+1=7+1=8"
   }
 ];

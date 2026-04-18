@@ -94,11 +94,11 @@ def parse_questions_robust(text, assignment_num):
             continue
         
         # Find all option positions in this block
-        opt_matches = list(re.finditer(r'\n\s*\(([a-e])\)\s+', '\n' + block))
+        opt_matches = list(re.finditer(r'\n\s*\(([a-e])\)\s*', '\n' + block))
         
         if len(opt_matches) < 2:
             # Try without newline
-            opt_matches = list(re.finditer(r'\(([a-e])\)\s+', block))
+            opt_matches = list(re.finditer(r'\(([a-e])\)\s*', block))
             if len(opt_matches) < 2:
                 continue
             use_newline_prefix = False
