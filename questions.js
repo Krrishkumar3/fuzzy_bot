@@ -654,7 +654,7 @@ const QUESTIONS_DATA = [
     "id": "a5_q1",
     "assignment": 5,
     "question_number": 1,
-    "question": "WWWhhheeennn mmmuuullltttiiippplllyyyiiinnnggg tttwwwooo tttrrriiiaaannnggguuulllaaarrr fffuuuzzzzzzyyy nnnuuummmbbbeeerrrsss,,, wwwhhhaaattt iiisss aaa pppooossssssiiibbbllleee ooouuutttcccooommmeee???",
+    "question": "When multiplying two triangular fuzzy numbers, what is a possible outcome?",
     "options": {
       "a": "Always a triangular fuzzy number",
       "b": "A trapezoidal fuzzy number",
